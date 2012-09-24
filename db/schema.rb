@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(:version => 20120811103608) do
 
   create_table "tickets", :force => true do |t|
     t.string   "pax_name"
-    t.decimal  "price"
+    t.decimal  "price",         :precision => 10, :scale => 0
     t.string   "ticket_number"
     t.datetime "created_at"
     t.datetime "updated_at"

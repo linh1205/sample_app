@@ -18,8 +18,12 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
-  gem 'mysql2', "0.3.7"
+  gem "capybara", ">= 1.1.2"
   gem 'rspec-rails', '2.11.0'
+end
+
+group :development do
+  gem 'mysql2', "0.3.7"
 end
 
 group :production do
