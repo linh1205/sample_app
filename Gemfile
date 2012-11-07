@@ -14,7 +14,7 @@ end
 
 # Gems used only for assets and not required
 # in production environments by default.
-gem 'sass-rails',   '~> 3.1.5'
+gem 'sass-rails',   '3.1.4'
 gem 'bootstrap-sass', '2.0.4'
 group :assets do
   gem 'coffee-rails', '~> 3.1.1'
